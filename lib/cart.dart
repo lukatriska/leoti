@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Cart extends StatelessWidget {
@@ -11,8 +14,6 @@ class Cart extends StatelessWidget {
   ];
 
   Cart(this.chosenTiles);
-
-  final _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -55,16 +56,27 @@ class Cart extends StatelessWidget {
                               child: Container(
                                 width: 70,
                                 padding: EdgeInsets.only(left: 0, top: 20),
-                                child: TextFormField(
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                  decoration: const InputDecoration(
-                                    hintText: 'кв. м',
-                                  ),
-                                ),
+                                child: Platform.isIOS
+                                    ? CupertinoTextField(
+                                        keyboardType: TextInputType.number,
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                        placeholder: 'кв. м',
+                                      )
+                                    : TextFormField(
+                                        keyboardType: TextInputType.number,
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                        decoration: const InputDecoration(
+                                          hintText: 'кв. м',
+                                        ),
+                                      ),
                               ),
                             )
                           ],
@@ -74,29 +86,51 @@ class Cart extends StatelessWidget {
             ),
           ),
           Container(
-//            padding: EdgeInsets.only(bottom: 40),
-            child: RaisedButton(
-              child: Text("Надіслати замовлення"),
-              onPressed: () {},
-            ),
+            padding: EdgeInsets.symmetric(vertical: 13),
+            child: Platform.isIOS
+                ? CupertinoButton.filled(
+                    child: Text("Надіслати замовлення"),
+                    onPressed: () => {},
+                  )
+                : RaisedButton(
+                    onPressed: () => {},
+                    child: Text("Надіслати замовлення"),
+                  ),
           ),
-          Expanded(
+          SingleChildScrollView(
+            padding: EdgeInsets.only(bottom: 50),
             child: Column(
               children: formTitles
                   .map((formTitle) => Form(
                         child: Container(
                           padding: EdgeInsets.only(left: 20, right: 20),
                           height: 40,
-                          child: TextFormField(
-                            textAlign: TextAlign.left,
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
-                            ),
-                            decoration: InputDecoration(
-                              hintText: formTitle,
-                            ),
-                          ),
+                          child: Platform.isIOS
+                              ? CupertinoTextField(
+                                  textInputAction: TextInputAction.done,
+                                  keyboardType: formTitle == 'Номер телефону'
+                                      ? TextInputType.phone
+                                      : null,
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                  placeholder: formTitle,
+                                )
+                              : TextFormField(
+                                  keyboardType: formTitle == 'Номер телефону'
+                                      ? TextInputType.phone
+                                      : null,
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                  decoration: InputDecoration(
+                                    hintText: formTitle,
+                                  ),
+                                ),
                         ),
                       ))
                   .toList(),
