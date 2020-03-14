@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
             child: gridViewSelection,
           ),
           Container(
-            padding: EdgeInsets.only(bottom: 100),
+            padding: EdgeInsets.only(bottom: 25, top: 15),
             child: Platform.isIOS
                 ? CupertinoButton.filled(
                     child: Text("Proceed to checkout"),
