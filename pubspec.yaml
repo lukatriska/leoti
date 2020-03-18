@@ -14,7 +14,7 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -23,6 +23,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  flutter_email_sender: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +51,22 @@ flutter:
     - assets/l-106.png
     - assets/l-107.png
     - assets/l-108.png
+    - assets/l-109.png
+    - assets/l-110.png
+    - assets/l-111.png
+    - assets/l-112.png
+    - assets/l-113.png
+    - assets/l-114.png
+    - assets/l-115.png
+    - assets/l-116.png
+    - assets/l-117.png
+    - assets/l-118.png
+    - assets/l-119.png
+    - assets/l-120.png
+    - assets/l-121.png
+    - assets/l-122.png
+    - assets/l-123.png
+    - assets/l-124.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
