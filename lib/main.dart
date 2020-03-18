@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_email_sender/flutter_email_sender.dart';
 
 import 'cart.dart';
 
@@ -28,16 +29,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<String> _images = [
-    'assets/l-101.png',
-    'assets/l-102.png',
-    'assets/l-103.png',
-    'assets/l-104.png',
-    'assets/l-105.png',
-    'assets/l-106.png',
-    'assets/l-107.png',
-    'assets/l-108.png',
-  ];
+  List loftTiles = new List<int>.generate(24, (i) => i + 1);
 
   List<String> _selectedImages = [];
 
@@ -61,27 +53,30 @@ class _HomePageState extends State<HomePage> {
       mainAxisSpacing: 10,
       crossAxisSpacing: 10,
       padding: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
-      children: _images
-          .map((imageData) => Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: ExactAssetImage(imageData),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-                child: CheckboxListTile(
-                  value: _selectedImages.contains(imageData),
-                  onChanged: (bool val) {
-                    setState(() {
-                      _selectedImages.contains(imageData)
-                          ? _selectedImages.remove(imageData)
-                          : _selectedImages.add(imageData);
-                    });
-                    print(_selectedImages);
-                  },
-                ),
-              ))
-          .toList(),
+      children: loftTiles.map((imageNumber) {
+        String currentImage = imageNumber < 10
+            ? 'assets/l-10$imageNumber.png'
+            : 'assets/l-1$imageNumber.png';
+        return Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: ExactAssetImage(currentImage),
+              fit: BoxFit.cover,
+            ),
+          ),
+          child: CheckboxListTile(
+            value: _selectedImages.contains(currentImage),
+            onChanged: (bool val) {
+              setState(() {
+                _selectedImages.contains(currentImage)
+                    ? _selectedImages.remove(currentImage)
+                    : _selectedImages.add(currentImage);
+              });
+              print(_selectedImages);
+            },
+          ),
+        );
+      }).toList(),
     );
 
     return Scaffold(
