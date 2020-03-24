@@ -36,7 +36,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Build debug APK
-        run: flutter build apk --split-per-abi
+        run: flutter build apk
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
