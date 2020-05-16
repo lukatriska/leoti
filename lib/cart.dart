@@ -103,7 +103,7 @@ class _CartState extends State<Cart> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
-        title: Text("Checkout"),
+        title: Text("Корзина"),
       ),
       body: Column(
         children: <Widget>[

@@ -33,7 +33,7 @@ class CartCheckout extends StatelessWidget {
   Future<void> send() async {
     final Email email = Email(
       body: inputValues.toString() + orderInfo.toString(),
-      subject: "Замовлення від ",
+      subject: "Замовлення від " + inputValues['Ім\'я'] + " " + inputValues['Прізвище'],
       recipients: ["lukatriska@gmail.com"],
     );
 
@@ -108,7 +108,7 @@ class CartCheckout extends StatelessWidget {
           Platform.isIOS
               ? CupertinoButton.filled(
                   child: Text("Надіслати замовлення"),
-                  onPressed: () => send,
+                  onPressed: () => send(),
                 )
               : RaisedButton(
                   child: Text("Надіслати замовлення"),

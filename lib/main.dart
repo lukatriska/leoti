@@ -1,12 +1,23 @@
+import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_email_sender/flutter_email_sender.dart';
+import 'package:leoti/ar_screen.dart';
 
 import 'cart.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+//  WidgetsFlutterBinding.ensureInitialized();
+
+//  Crashlytics.instance.enableInDevMode = true;
+//
+//  // Pass all uncaught errors from the framework to Crashlytics.
+//  FlutterError.onError = Crashlytics.instance.recordFlutterError;
+
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -45,6 +56,18 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  void goToAR(BuildContext ctx, selected) {
+    Navigator.of(ctx).push(
+      Platform.isIOS
+          ? CupertinoPageRoute(
+              builder: (_) => ArScreen(selected),
+            )
+          : MaterialPageRoute(
+              builder: (_) => ArScreen(selected),
+            ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     Widget gridViewSelection = GridView.count(
@@ -58,6 +81,7 @@ class _HomePageState extends State<HomePage> {
             ? 'assets/l-10$imageNumber.png'
             : 'assets/l-1$imageNumber.png';
         return Container(
+
           decoration: BoxDecoration(
             image: DecorationImage(
               image: ExactAssetImage(currentImage),
@@ -90,15 +114,31 @@ class _HomePageState extends State<HomePage> {
           ),
           Container(
             padding: EdgeInsets.only(bottom: 25, top: 15),
-            child: Platform.isIOS
-                ? CupertinoButton.filled(
-                    child: Text("Proceed to checkout"),
-                    onPressed: () => goToCheckout(context, _selectedImages),
-                  )
-                : RaisedButton(
-                    onPressed: () => goToCheckout(context, _selectedImages),
-                    child: Text("Proceed to checkout"),
-                  ),
+            child: Column(
+              children: <Widget>[
+                Platform.isIOS
+                    ? Container(
+                  padding: EdgeInsets.only(bottom: 10),
+                      child: CupertinoButton.filled(
+                  child: Text("View in AR"),
+                  onPressed: () => goToAR(context, _selectedImages),
+                ),
+                    )
+                    : RaisedButton(
+                  onPressed: () => goToAR(context, _selectedImages),
+                  child: Text("View in AR"),
+                ),
+                Platform.isIOS
+                    ? CupertinoButton.filled(
+                        child: Text("Proceed to checkout"),
+                        onPressed: () => goToCheckout(context, _selectedImages),
+                      )
+                    : RaisedButton(
+                        onPressed: () => goToCheckout(context, _selectedImages),
+                        child: Text("Proceed to checkout"),
+                      ),
+              ],
+            ),
           )
         ],
       ),
