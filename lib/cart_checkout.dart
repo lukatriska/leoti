@@ -6,9 +6,9 @@ import 'package:flutter_email_sender/flutter_email_sender.dart';
 
 class CartCheckout extends StatelessWidget {
 //  Map<String, String> orderInfo;
-  String orderInfo = '';
+  var orderInfo = <String, String>{};
 
-  CartCheckout(orderInfo);
+  CartCheckout(this.orderInfo);
 
   String bodyText = "";
 
@@ -31,9 +31,24 @@ class CartCheckout extends StatelessWidget {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   Future<void> send() async {
+    String firstName = inputValues['Ім\'я'];
+    String lastName = inputValues['Прізвище'];
+    String number = inputValues['Номер телефону'];
+    String other = inputValues['Інше'];
+
+    String finalBodyText =
+        "Замовлення від $firstName $lastName, номер телефону $number, примітка: $other. ";
+
+    String orderInfoText = "Замовлення: \n";
+    orderInfo.forEach((key, value) =>
+        orderInfoText += "L${key.substring(1, 5)}: $value м. кв.\n");
+
     final Email email = Email(
-      body: inputValues.toString() + orderInfo.toString(),
-      subject: "Замовлення від " + inputValues['Ім\'я'] + " " + inputValues['Прізвище'],
+      body: finalBodyText + "\n" + orderInfoText,
+      subject: "Замовлення від " +
+          inputValues['Ім\'я'] +
+          " " +
+          inputValues['Прізвище'],
       recipients: ["lukatriska@gmail.com"],
     );
 
@@ -53,8 +68,6 @@ class CartCheckout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print("orderinfo in cart checkout: ");
-    print(orderInfo);
     return Scaffold(
       appBar: AppBar(
         title: Text("Checkout"),

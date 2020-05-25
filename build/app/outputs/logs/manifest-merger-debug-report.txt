@@ -5,27 +5,34 @@ INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidMan
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml:1:1-30:12
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/7def8d6c3751559765cf68c2d5a2dddd/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/60c890b7febb99854cab301d6a2a855b/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/2410fdb7000841f3d1c8c67029d91e2f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b1c3739a180dfdcda5d6182680201b94/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5217eeae1d87eee61e2094612c576249/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/0d479d426be2ba1f4bdfee2f9a7aa519/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/f266002780b6f62ae73a8842bc10a810/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/6af37b0dc18acadfaf8b0344ec157d66/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4881302d1430cfdcaa10344523e2ce7f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/28c8df72e3e98cf2af337943db219b6d/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a5b8095803802f17607f1ac359c588fa/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/06d80eb16b557b026bc1ef456724990c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/31cd047ed3ec37dce69ba9f16e10a05d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1e236933895555307665b558a3a3fa6d/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/13eb812daeca5edd5883d98298d1a9d8/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/82b463c8584fb88ea5a1f562d740c4b7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a78ce9b49fd39a3eac90624d04d1ee8a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/07713a4b02ecb1ede5529340586b2906/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4227c25f5adddf6ac1aa1a65c6b6f6a4/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d51e0220d8e43d4bfbf3a1c4895b8a97/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b59192acc39c8e1083525bb1a0764fd3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3bf5fc05ca184d01c3bed36c84f7c6c7/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:2:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d761994815379426dcc186b3b08263f3/crashlytics-ndk-2.0.5/AndroidManifest.xml:23:1-33:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b6ead1d2006170505c802bd2a91ec77e/crashlytics-core-2.6.8/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3e930f79568ab8a5a3ba8d30e36a02e9/jetified-answers-1.4.7/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ce84b48d25bd32bfa938cfd2d11f4122/fabric-1.4.8/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1eeff253cbf90b0bbe3f7accd56baf35/beta-1.2.10/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -45,14 +52,28 @@ INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidMa
 		ADDED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml:1:11-69
 application
 ADDED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml:8:5-29:19
+MERGED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
-MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4227c25f5adddf6ac1aa1a65c6b6f6a4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4227c25f5adddf6ac1aa1a65c6b6f6a4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d761994815379426dcc186b3b08263f3/crashlytics-ndk-2.0.5/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d761994815379426dcc186b3b08263f3/crashlytics-ndk-2.0.5/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b6ead1d2006170505c802bd2a91ec77e/crashlytics-core-2.6.8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b6ead1d2006170505c802bd2a91ec77e/crashlytics-core-2.6.8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3e930f79568ab8a5a3ba8d30e36a02e9/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3e930f79568ab8a5a3ba8d30e36a02e9/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ce84b48d25bd32bfa938cfd2d11f4122/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ce84b48d25bd32bfa938cfd2d11f4122/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1eeff253cbf90b0bbe3f7accd56baf35/beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1eeff253cbf90b0bbe3f7accd56baf35/beta-1.2.10/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml:10:9-30
 	android:icon
@@ -93,48 +114,62 @@ uses-sdk
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/main/AndroidManifest.xml
+MERGED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/7def8d6c3751559765cf68c2d5a2dddd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/7def8d6c3751559765cf68c2d5a2dddd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/60c890b7febb99854cab301d6a2a855b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/60c890b7febb99854cab301d6a2a855b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/2410fdb7000841f3d1c8c67029d91e2f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/2410fdb7000841f3d1c8c67029d91e2f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b1c3739a180dfdcda5d6182680201b94/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b1c3739a180dfdcda5d6182680201b94/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5217eeae1d87eee61e2094612c576249/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5217eeae1d87eee61e2094612c576249/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/0d479d426be2ba1f4bdfee2f9a7aa519/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/0d479d426be2ba1f4bdfee2f9a7aa519/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/f266002780b6f62ae73a8842bc10a810/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/f266002780b6f62ae73a8842bc10a810/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/6af37b0dc18acadfaf8b0344ec157d66/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/6af37b0dc18acadfaf8b0344ec157d66/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4881302d1430cfdcaa10344523e2ce7f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4881302d1430cfdcaa10344523e2ce7f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/28c8df72e3e98cf2af337943db219b6d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/28c8df72e3e98cf2af337943db219b6d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a5b8095803802f17607f1ac359c588fa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a5b8095803802f17607f1ac359c588fa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/06d80eb16b557b026bc1ef456724990c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/06d80eb16b557b026bc1ef456724990c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/31cd047ed3ec37dce69ba9f16e10a05d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/31cd047ed3ec37dce69ba9f16e10a05d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1e236933895555307665b558a3a3fa6d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1e236933895555307665b558a3a3fa6d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/13eb812daeca5edd5883d98298d1a9d8/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/13eb812daeca5edd5883d98298d1a9d8/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/82b463c8584fb88ea5a1f562d740c4b7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/82b463c8584fb88ea5a1f562d740c4b7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a78ce9b49fd39a3eac90624d04d1ee8a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/a78ce9b49fd39a3eac90624d04d1ee8a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/07713a4b02ecb1ede5529340586b2906/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/07713a4b02ecb1ede5529340586b2906/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4227c25f5adddf6ac1aa1a65c6b6f6a4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/4227c25f5adddf6ac1aa1a65c6b6f6a4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d51e0220d8e43d4bfbf3a1c4895b8a97/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d51e0220d8e43d4bfbf3a1c4895b8a97/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b59192acc39c8e1083525bb1a0764fd3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b59192acc39c8e1083525bb1a0764fd3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3bf5fc05ca184d01c3bed36c84f7c6c7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3bf5fc05ca184d01c3bed36c84f7c6c7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d761994815379426dcc186b3b08263f3/crashlytics-ndk-2.0.5/AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/d761994815379426dcc186b3b08263f3/crashlytics-ndk-2.0.5/AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b6ead1d2006170505c802bd2a91ec77e/crashlytics-core-2.6.8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b6ead1d2006170505c802bd2a91ec77e/crashlytics-core-2.6.8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3e930f79568ab8a5a3ba8d30e36a02e9/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3e930f79568ab8a5a3ba8d30e36a02e9/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ce84b48d25bd32bfa938cfd2d11f4122/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ce84b48d25bd32bfa938cfd2d11f4122/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1eeff253cbf90b0bbe3f7accd56baf35/beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1eeff253cbf90b0bbe3f7accd56baf35/beta-1.2.10/AndroidManifest.xml:7:5-43
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -145,8 +180,28 @@ INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidMa
 		INJECTED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b6ead1d2006170505c802bd2a91ec77e/crashlytics-core-2.6.8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/b6ead1d2006170505c802bd2a91ec77e/crashlytics-core-2.6.8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3e930f79568ab8a5a3ba8d30e36a02e9/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/3e930f79568ab8a5a3ba8d30e36a02e9/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ce84b48d25bd32bfa938cfd2d11f4122/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/ce84b48d25bd32bfa938cfd2d11f4122/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1eeff253cbf90b0bbe3f7accd56baf35/beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/1eeff253cbf90b0bbe3f7accd56baf35/beta-1.2.10/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /Users/schwajka/IdeaProjects/leoti/android/app/src/debug/AndroidManifest.xml:6:22-64
+activity#com.kiwi.fluttercrashlytics.CrashActivity
+ADDED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-78
+	android:name
+		ADDED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:19-75
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-12:37
+	android:value
+		ADDED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-34
+	android:name
+		ADDED from [:flutter_crashlytics] /Users/schwajka/IdeaProjects/leoti/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-67
 provider#com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider
 ADDED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
@@ -163,3 +218,13 @@ ADDED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flut
 		ADDED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-58
 	android:name
 		ADDED from [:flutter_email_sender] /Users/schwajka/IdeaProjects/leoti/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/schwajka/.gradle/caches/transforms-2/files-2.1/c21ec91229b816154b15ef2a5f9d21ea/crashlytics-2.9.9/AndroidManifest.xml:13:13-75

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "130215260470",
+    "firebase_url": "https://disco-portal-204613.firebaseio.com",
+    "project_id": "disco-portal-204613",
+    "storage_bucket": "disco-portal-204613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130215260470:android:c3948ea4d42981f7dfc397",
+        "android_client_info": {
+          "package_name": "com.example.leoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130215260470-btkighdipcquj96c5k74iee30upo31js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEAMlT7Ief6h5HSEqERrWuflQMu23pxcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130215260470-btkighdipcquj96c5k74iee30upo31js.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "130215260470-u1sta2et5urq2poqt93f6pvgjg81r0ml.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "lukatriska-gmail.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

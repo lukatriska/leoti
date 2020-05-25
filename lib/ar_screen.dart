@@ -57,16 +57,42 @@ class _ArScreenState extends State<ArScreen> {
       appBar: AppBar(title: const Text('AR')),
       body: Column(
         children: <Widget>[
-          Container(
-            child: Expanded(
-              child: ARKitSceneView(
-                showFeaturePoints: true,
-                planeDetection: ARPlaneDetection.horizontal,
-                onARKitViewCreated: onARKitViewCreated,
-              ),
+          Expanded(
+            child: ARKitSceneView(
+              showFeaturePoints: true,
+              enablePanRecognizer: true,
+              enableRotationRecognizer: true,
+              planeDetection: ARPlaneDetection.horizontal,
+              onARKitViewCreated: onARKitViewCreated,
             ),
           ),
-          Container(
+//          Container(
+//            height: 80,
+//            child: Flex(
+//              direction: Axis.horizontal,
+//              children: <Widget>[
+//                Expanded(
+//                  child: Row(
+//                    children: <Widget>[
+//                      RaisedButton(
+//                        onPressed: () {
+//                          node.rotation.value += vector.Vector4(20, 0, 0, 0);
+////                        node.rotation.value += vector.Vector4(0, 0, 0, 5);
+////                        node.eulerAngles.value += vector.Vector3(0, 0, 5);
+//                        },
+//                        child: Text("awdawd"),
+//                      ),
+//                      RaisedButton(
+//                        onPressed: () {},
+//                        child: Text("awdawd"),
+//                      ),
+//                    ],
+//                  ),
+//                )
+//              ],
+//            ),
+//          ),
+          /* Container(
             height: 100,
             child: Row(
                 children: this.widget.chosenTiles.map((currentImage) {
@@ -91,7 +117,7 @@ class _ArScreenState extends State<ArScreen> {
                 ),
               );
             }).toList()),
-          )
+          )*/
         ],
       ),
     );
@@ -101,6 +127,9 @@ class _ArScreenState extends State<ArScreen> {
     this.arkitController = arkitController;
     this.arkitController.onAddNodeForAnchor = _handleAddAnchor;
     this.arkitController.onUpdateNodeForAnchor = _handleUpdateAnchor;
+    this.arkitController.onNodePan = (pan) => _onPanHandler(pan);
+    this.arkitController.onNodeRotation =
+        (rotation) => _onRotationHandler(rotation);
   }
 
   void _handleAddAnchor(ARKitAnchor anchor) {
@@ -108,6 +137,29 @@ class _ArScreenState extends State<ArScreen> {
       return;
     }
     _addPlane(arkitController, anchor);
+  }
+
+  void _onPanHandler(List<ARKitNodePanResult> pan) {
+    final panNode =
+        pan.firstWhere((e) => e.nodeName == node.name, orElse: null);
+    if (panNode != null) {
+      final old = node.eulerAngles.value;
+      final newAngleY = panNode.translation.x * math.pi / 180;
+      node.eulerAngles.value = vector.Vector3(old.x, newAngleY, old.z);
+    }
+  }
+
+  void _onRotationHandler(List<ARKitNodeRotationResult> rotation) {
+    final rotationNode = rotation.firstWhere(
+      (e) => e.nodeName == node.name,
+      orElse: () => null,
+    );
+    print(node.rotation.value);
+    if (rotationNode != null) {
+      final rotation =
+          node.rotation.value + vector.Vector4.all(rotationNode.rotation);
+      node.rotation.value = rotation;
+    }
   }
 
   void _handleUpdateAnchor(ARKitAnchor anchor) {
@@ -123,13 +175,15 @@ class _ArScreenState extends State<ArScreen> {
 
   void _addPlane(ARKitController controller, ARKitPlaneAnchor anchor) {
     anchorId = anchor.identifier;
+    String currentImage = this.widget.chosenTiles[0].substring(51, 56);
+    print(this.widget.chosenTiles[0].substring(51, 56));
     plane = ARKitPlane(
       width: anchor.extent.x,
       height: anchor.extent.z,
       materials: [
         ARKitMaterial(
           diffuse: ARKitMaterialProperty(
-              image: 'assets/l-101.png', color: Colors.white),
+              image: 'assets/$currentImage.png', color: Colors.white),
         )
       ],
     );
