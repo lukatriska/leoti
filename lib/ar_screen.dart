@@ -177,6 +177,7 @@ class _ArScreenState extends State<ArScreen> {
     anchorId = anchor.identifier;
     String currentImage = this.widget.chosenTiles[0].substring(51, 56);
     print(this.widget.chosenTiles[0].substring(51, 56));
+
     plane = ARKitPlane(
       width: anchor.extent.x,
       height: anchor.extent.z,

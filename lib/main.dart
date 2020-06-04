@@ -4,54 +4,12 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_email_sender/flutter_email_sender.dart';
 import 'package:leoti/ar_screen.dart';
 import 'package:http/http.dart' as http;
 
 import 'cart.dart';
 
-Future<Album> fetchAlbum() async {
-  final response =
-      await http.get('http://127.0.0.1:8000/assets/l-101.png');
-
-  if (response.statusCode == 200) {
-    // If the server did return a 200 OK response,
-    // then parse the JSON.
-    print(json.decode(response.body));
-    return Album.fromJson(json.decode(response.body));
-  } else {
-    // If the server did not return a 200 OK response,
-    // then throw an exception.
-    throw Exception('Failed to load album');
-  }
-}
-
-
-
-class Album {
-  final String name;
-  final String title;
-
-  Album({this.name, this.title});
-
-  factory Album.fromJson(Map<String, dynamic> json) {
-    return Album(
-      name: json['name'],
-      title: json['title'],
-    );
-  }
-}
-
-void main() async {
-//  WidgetsFlutterBinding.ensureInitialized();
-
-//  Crashlytics.instance.enableInDevMode = true;
-//
-//  // Pass all uncaught errors from the framework to Crashlytics.
-//  FlutterError.onError = Crashlytics.instance.recordFlutterError;
-
-  runApp(MyApp());
-}
+void main() async => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -73,16 +31,75 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
+class Tile {
+  int id;
+  String name;
+
+  Tile.fromJsonMap(Map<String, dynamic> map)
+      : id = map["id"],
+        name = map["name"];
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['id'] = id;
+    data['name'] = name;
+    return data;
+  }
+}
+
 class _HomePageState extends State<HomePage> {
-//  Future<Album> futureAlbum;
-//  @override
-//  void initState() {
-//    super.initState();
-//    futureAlbum = fetchAlbum();
-//  }
-  List loftTiles = new List<int>.generate(24, (i) => i + 1);
 
   List<String> _selectedImages = [];
+
+  Widget gridViewSelection;
+
+  Future<List<Tile>> getTiles() async {
+    var response = await http.get("http://127.0.0.1:8080/products.json");
+    List<Tile> loftTiles;
+
+    List res = json.decode(response.body);
+    loftTiles = res.map((data) => Tile.fromJsonMap(data)).toList();
+
+    gridViewSelection = GridView.count(
+      childAspectRatio: 1.0,
+      crossAxisCount: 2,
+      mainAxisSpacing: 10,
+      crossAxisSpacing: 10,
+      padding: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+      children: loftTiles.map((tile) {
+        String currentImage = tile.id < 10
+            ? 'http://leoti.com.ua/files/collections/loft/img_6x6/l-10${tile.id}\_6x6_v1.png'
+            : 'http://leoti.com.ua/files/collections/loft/img_6x6/l-1${tile.id}\_6x6_v1.png';
+        return Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: NetworkImage(currentImage),
+              fit: BoxFit.cover,
+            ),
+          ),
+          child: CheckboxListTile(
+            value: _selectedImages.contains(currentImage),
+            onChanged: (bool val) {
+              print(_selectedImages);
+              setState(() {
+                _selectedImages.contains(currentImage)
+                    ? _selectedImages.remove(currentImage)
+                    : _selectedImages.add(currentImage);
+              });
+            },
+          ),
+        );
+      }).toList(),
+    );
+    return loftTiles;
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    getTiles();
+  }
+
 
   void showAlert(BuildContext context) {
     showDialog(
@@ -126,62 +143,17 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    Widget gridViewSelection = GridView.count(
-      childAspectRatio: 1.0,
-      crossAxisCount: 2,
-      mainAxisSpacing: 10,
-      crossAxisSpacing: 10,
-      padding: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
-      children: loftTiles.map((imageNumber) {
-        String currentImage = imageNumber < 10
-            ? 'http://leoti.com.ua/files/collections/loft/img_6x6/l-10$imageNumber\_6x6_v1.png'
-            : 'http://leoti.com.ua/files/collections/loft/img_6x6/l-1$imageNumber\_6x6_v1.png';
-        return Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: NetworkImage(currentImage),
-              fit: BoxFit.cover,
-            ),
-          ),
-          child: CheckboxListTile(
-            value: _selectedImages.contains(currentImage),
-            onChanged: (bool val) {
-              print(_selectedImages);
-              setState(() {
-                _selectedImages.contains(currentImage)
-                    ? _selectedImages.remove(currentImage)
-                    : _selectedImages.add(currentImage);
-              });
-            },
-          ),
-        );
-      }).toList(),
-    );
 
     return Scaffold(
       appBar: AppBar(
         title: Text('LEOTI'),
       ),
-      body:
-
-      /*Center(
-        child: FutureBuilder<Album>(
-          future: futureAlbum,
-          builder: (context, snapshot) {
-            if (snapshot.hasData) {
-              return Text(snapshot.data.title);
-            } else if (snapshot.hasError) {
-              return Text("${snapshot.error}");
-            }
-
-            // By default, show a loading spinner.
-            return CircularProgressIndicator();
-          },
-        ),
-      )*/
-
-      Column(
+      body: Column(
         children: <Widget>[
+          Container(
+            padding: EdgeInsets.only(top: 20),
+            child: Text("Selected images: ${_selectedImages.map((e) => e.substring(51, 56))}"),
+          ),
           Expanded(
             child: gridViewSelection,
           ),
@@ -191,16 +163,16 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Platform.isIOS
                     ? Container(
-                  padding: EdgeInsets.only(bottom: 10),
-                      child: CupertinoButton.filled(
-                  child: Text("View in AR"),
-                  onPressed: () => goToAR(context, _selectedImages),
-                ),
-                    )
+                        padding: EdgeInsets.only(bottom: 10),
+                        child: CupertinoButton.filled(
+                          child: Text("View in AR"),
+                          onPressed: () => goToAR(context, _selectedImages),
+                        ),
+                      )
                     : RaisedButton(
-                  onPressed: () => goToAR(context, _selectedImages),
-                  child: Text("View in AR"),
-                ),
+                        onPressed: () => goToAR(context, _selectedImages),
+                        child: Text("View in AR"),
+                      ),
                 Platform.isIOS
                     ? CupertinoButton.filled(
                         child: Text("Proceed to checkout"),
@@ -214,23 +186,7 @@ class _HomePageState extends State<HomePage> {
             ),
           )
         ],
-      )
-      ,
-//      bottomNavigationBar: BottomNavigationBar(
-//        items: const <BottomNavigationBarItem>[
-//          BottomNavigationBarItem(
-//            icon: Icon(Icons.home),
-//            title: Text('Home'),
-//          ),
-//          BottomNavigationBarItem(
-//            icon: Icon(Icons.shopping_cart),
-//            title: Text('Cart'),
-//          ),
-//        ],
-////        currentIndex: _selectedIndex,
-////        selectedItemColor: Colors.amber[800],
-////        onTap: _onItemTapped,
-//      ),
+      ),
     );
   }
 }
