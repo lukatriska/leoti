@@ -1,6 +1,6 @@
 name: Android Pull Request & Master CI
 
-on: push
+on: 
 
 jobs:
 #   test:
